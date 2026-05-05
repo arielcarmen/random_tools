@@ -15,7 +15,7 @@ st.set_page_config(
 st.title("Image to PDF Converter")
 st.write("Convert multiple images into a single PDF file. Each image will be placed on its own page.")
 
-st.divider()
+# st.divider()
 
 # Instructions section
 with st.expander("How to Use", expanded=False):
