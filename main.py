@@ -1,5 +1,5 @@
 """
-Whatsapp Stats - Multi-Page Streamlit Application
+Random tools box - Multi-Page Streamlit Application
 Main entry point and home page of the application.
 """
 
@@ -7,7 +7,7 @@ import streamlit as st
 
 # Configure page metadata
 st.set_page_config(
-    page_title="Whatsapp Stats",
+    page_title="Random tools box",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -19,7 +19,7 @@ st.set_page_config(
 # """)
 
 # Page title and welcome message
-st.title("Whatsapp Stats")
+st.title("Random tools box")
 st.markdown("### Your All-in-One Utility Application")
 
 st.divider()
@@ -28,10 +28,10 @@ st.divider()
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    st.header("Welcome to Whatsapp Stats")
+    st.header("Welcome to Random tools box")
     st.write(
         """
-        Whatsapp Stats is a comprehensive utility application designed to help you with two primary tasks:
+        Random tools box is a comprehensive utility application designed to help you with two primary tasks:
         
         1. **Analyze WhatsApp chat exports** and generate detailed statistics about message counts and user activity
         2. **Convert multiple images** into a single, organized PDF document

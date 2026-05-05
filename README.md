@@ -1,4 +1,4 @@
-# Whatsapp Stats
+# Random tools box
 
 A professional multi-page Streamlit application for analyzing WhatsApp chat exports and converting images to PDF.
 
