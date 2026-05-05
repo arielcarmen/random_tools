@@ -12,12 +12,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom sidebar header
-st.sidebar.markdown("""
----
-### Tools
----
-""")
+# # Custom sidebar header
+# st.sidebar.markdown("""
+# ### Tools
+
+# """)
 
 # Page title and welcome message
 st.title("Whatsapp Stats")
@@ -265,22 +264,21 @@ with tech_col3:
         """
     )
 
-st.divider()
+# st.divider()
 
 # Footer
-st.write("")
-st.markdown(
-    """
-    ---
-    **Whatsapp Stats** | Multi-purpose Utility Application  
-    Version 2.1 | April 2026
-    """
-)
+# st.write("")
+# st.markdown(
+#     """
+#     ---
+#     **Whatsapp Stats** | Multi-purpose Utility Application  
+#     Version 2.1 | April 2026
+#     """
+# )
 
 # Sidebar footer
 st.sidebar.markdown(
     """
-    ---
     **Version:** 2.1  
     **Built with:** Streamlit  
     **Privacy:** Local processing only
